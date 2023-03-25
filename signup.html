@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Signup</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="signupcss.css">
+
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js" integrity="sha512-ec1IDrAZxPSKIe2wZpNhxoFIDjmqJ+Z5SGhbuXZrw+VheJu2MqqJfnYsCD8rf71sQfKYMF4JxNSnKCjDCZ/Hlw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div id="main-div">
+        <div class="container2">
+            <div class="row">
+                <div class="col-md-7" >
+                    <div class="first">
+                        <img src="https://s3b.cashify.in/gpro/uploads/2020/04/02060122/google-phone-news.jpg" alt="">
+                    </div>
+                    <div class="margin">
+                        <div class="second">
+                            <h4>Create your Google Account</h4>
+                        </div>
+                        <div class="third" name='f1' onsubmit="validate()">
+                            <div class="row">
+                                <div class="col-md-6 pr-2">
+                                    <!-- <input type="text" class="form-control" placeholder="First name" aria-label="First name"> -->
+                                    <div class="form-group floating">
+                                        <input type="text" class="form-control floating" id="usr" required value="" name="fname">
+
+                                        <label for="usr">First Name</label>
+                                        <span id="nameloc"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"> -->
+                                    <!-- <div class="form-group floating">
+                                        <input type="text" class="form-control floating" id="usr" required value="" name="fname">
+                                        <label for="usr">Last Name</label>
+                                        <span id="nameloc"></span>
+                                    </div> -->
+                                    <div class="form-outline">
+                                        <input type="text" id="form12" class="form-control" />
+                                        <label class="form-label" for="form12">Example label</label>
+                                      </div>
+                                </div>
+                            </div><br>
+                            <div class="row">
+                                <div class="col-md-12 pr-2 ">
+                                    <div class="input-group ">
+                                      
+                                        <input type="text" class="form-control" placeholder="username" aria-label="Recipient's username" >
+
+                                        <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                                        
+                                    </div>
+                                    <span class="s mr-4">You can use letters,numbers & periods</span>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-4">
+                              <span class="k">Use my current email address instead</span>
+                          </div>
+                            <div class="row align-items-start mb-2">
+                                <div class="col-md-6 pr-2">
+                                    <input type="text" class="form-control" placeholder="Password" aria-label="Password" name="password">
+                                    <span id="passloc"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Confirm" aria-label="Conform Password">
+                                </div>
+                                
+                                <span class="s mr-4">Use 8 or more characters with a mix of letters, numbers & symbols</span>
+                                
+                            </div>
+                            
+                            <div class="form-check col-md-12">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                                Show Password
+                              </label>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <span class="r">Sign in instead</span>
+                                </div>
+                                <button class="q btn btn-primary btn-sm" type="submit" >Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <img class="right-img" src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" alt="" width="244" height="244">
+                    <p class="p">One account. All of Google working for you.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="m">
+                        <a href="#">Help</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>sign in</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="signin.css">
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+}
+.emails{
+    border: 1px solid #ddd;
+}
+.emails:focus{
+    border-color: #1a73e8;
+}
+
+.container2 {
+    width: 450px;
+    height: fit-content;
+    border: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 60px 40px;
+    border-radius: 7px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+.first img {
+    width: 160px;
+    margin: 0px 5rem 0px 5rem;
+    
+}
+.lab{
+    background-color: white;
+    
+}
+/* .lab:hover{
+    border-color: blue;
+} */
+
+
+.second{
+    text-align: center;
+}
+
+.second h4 {
+    
+    font-weight: 400;
+   
+    /* margin: 0px 5rem 0px 5rem; */
+}
+.second h6 {
+    
+    font-weight: 450;
+   
+    margin: 0px 5rem 0px 5rem;
+}
+
+.third {
+    margin-top: 33px;
+}
+
+.t {
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #767676;
+}
+
+.s {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+
+.r {
+    font-size: 15px;
+    margin-bottom: 10%;
+    padding: 0px 0px 10px 0px;
+    cursor: pointer;
+    display: block;
+    padding-left: 0;
+    color: rgb(7, 66, 245);
+    font-weight: 500;
+}
+
+.q {
+    margin-top: 27px;
+    padding: 8px 22px;
+    display: block;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    color: #fff;
+    width: 78px;
+    cursor: pointer;
+}
+
+.right-img {
+    margin: 73px 0px 0px -12px;
+}
+
+.p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.n {
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.m {
+    margin-top: 12px;
+    text-align: right;
+}
+.c {
+    font-size: 15px;
+    margin-top: 22px;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    padding-left: 0;
+    color: rgb(7, 66, 245);
+    font-weight: 500;
+}
+
+.m a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+    color: #767676;
+    font-size: 15px;
+}
+/* 
+.container3 {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+/* .bi::before {
+  display: inline-block;
+  content: "";
+  vertical-align: -.125em;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+} */
+
+
+  </style>
+  </head>
+  <body>
+    
+    <div id="main-div">
+      <div class="container2 card-body">
+          <div>
+              <div class="col-md-12">
+                  <div class="first">
+                      <img src="https://s3b.cashify.in/gpro/uploads/2020/04/02060122/google-phone-news.jpg" alt="">
+                  </div>
+                  <div class="margin">
+                      <div class="second">
+                          <h4>Sign in</h4>
+                      </div>
+                      <div class="second">
+                        <h6>Use your google account</h6>
+                    </div>
+                      <div class="third col-md-12">
+                                  <!-- <div class="emails form-outline p-2">
+                    
+                                    <input type="text" id="typeText" class="form-control" />
+                                    <label class="lab form-label" for="typeText">Email or phone</label>
+                                  </div>                                   -->
+                                  <label class="col-md-12 pure-material-textfield-outlined">
+                                    <input placeholder="Email or phone">
+                                    <span>Email or phone</span>
+                                  </label>
+                                  <span class="r">Forgot email?</span>
+                                
+                            </div>
+                            <div class="col-md">
+                                <span class="s ">Not your computer? Use Guest mode to sign in privately.</span>
+                                <span class="r">Learn more</span>
+                            </div>
+                          
+                          
+                          
+                          <div class="row">
+                              <div class="col-md">
+                                  <span class="c">Create account</span>
+                              </div>
+                              <!-- <div class="col-md-4"><span class="q">Next</span></div> -->
+                              <button class="q btn btn-primary btn-sm" type="submit">Next</button>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+          
+          </div>
+      </div>
+
+          <div class="row">
+              
+              <div class="col-md-8">
+                  <div class="m">
+                      <a href="#">Help</a>
+                      <a href="#">Privacy</a>
+                      <a href="#">Terms</a>
+                  </div>
+              </div>
+          </div>
+      
+  </div>
+    
+    
+  </body>
+</html>
